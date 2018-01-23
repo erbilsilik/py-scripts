@@ -1,0 +1,27 @@
+<ul *ngFor="let person of people">
+    <li *ngIf="person.country ==='UK'"
+        class="text-success">{{ person.name }} ({{ person.country }}) text1
+    </li>
+    <li *ngIf="person.country === 'USA'"
+        class="text-primary">{{ person.name }} ({{ person.country }}) text2
+    </li>
+    <li *ngIf="person.country === 'HK'"
+        class="text-danger">{{ person.name }} ({{ person.country }}) text3
+    </li>
+    <li *ngIf="person.country !== 'HK' && person.country !== 'UK' && person.country !== 'USA'"
+        class="text-warning">{{ person.name }} ({{ person.country }}) text4
+    </li>
+  </ul>
+
+  <div class="card card-block">
+    <h4 class="card-title">
+      Text5
+    </h4>
+    <p class="card-text"
+       [hidden]="data.hide">
+     Text6
+    </p>
+    <a class="btn btn-primary">
+       Text7
+    </a>
+  </div>
