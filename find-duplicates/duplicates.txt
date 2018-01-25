@@ -1,0 +1,10 @@
+"Kit Salido" : 2
+"Verlie Szabo" : 2
+"Augusta Grossi" : 2
+"Ofelia Danielsen" : 4
+"Daphne Beale" : 3
+"Angelic Cazarez" : 2
+"Scarlet Allmond" : 2
+------------------------------------
+Total Duplicates: 10
+------------------------------------
